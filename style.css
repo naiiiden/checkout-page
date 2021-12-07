@@ -104,6 +104,16 @@ span {
     color: #333333;
 }
 
+.numberinput {
+    text-align: center;
+    width: 4rem;
+    border: none;
+    background-color: inherit;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .more {
     width: 1.212rem;
     height: 1.212rem;
@@ -279,7 +289,7 @@ span {
     border: 1px solid #828282;
 }
 
-button {
+.btn {
     width: 10.375rem;
     height: 3.375rem;
     background-color: #f2994a;
@@ -392,6 +402,16 @@ button {
         font-size: 16px;
         font-weight: 600;
         color: #333333;
+    }
+
+    .numberinput {
+        text-align: center;
+        width: 2.5rem;
+        border: none;
+        background-color: inherit;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
     }
     
     .more {

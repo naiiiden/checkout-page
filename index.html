@@ -25,7 +25,7 @@
               <div class="less">
                 <div class="minus"></div>
               </div>
-              <p class="quant">1</p>
+              <input type="number" class="numberinput" value=1>
               <div class="more">
                 <div class="plus"></div>
                 <div class="plus1"></div>
@@ -42,7 +42,7 @@
               <div class="less">
                 <div class="minus"></div>
               </div>
-              <p class="quant">1</p>
+              <input type="number" class="numberinput" value=1>
               <div class="more">
                 <div class="minus"></div>
                 <div class="plus1"></div>
@@ -64,10 +64,10 @@
         </div>
       </div><!--ORDER TAB--> 
 
+    <form>
       <div class="contact_shipping">
         <div class="email_phone">
           <p class="contact">Contact information</p>
-          <form class="form1">
             <div class="avoidflexgap">
             <label class="label" for="email">E-mail</label>
             <div class="inputcontainer">
@@ -83,12 +83,12 @@
               <input type="text" name="phone" placeholder="Enter your phone..." id="phone" required>
             </div>
             </div>
-            </form>
+            
         </div>   
 
         <div class="email_phone">
           <p class="contact contact1">Shipping address</p>
-          <form class="form1">
+          
             <div class="avoidflexgap">
               <label class="label" for="fullname">Full Name</label>
               <div class="inputcontainer">
@@ -130,18 +130,17 @@
                 </div>
               </div>
             </div>
-          </form>
-      
-
+          
           <div class="save_button">
             <div class="checkboxbox">
               <input class="checkbox" type="checkbox" required>
-              <label for="check" class="checklabel">Save this information for next time.</label>
+              <label for="check" class="checklabel">Save this information for next time.*</label>
             </div>
-            <button type="submit">Continue</button>
+            <input class="btn" type="submit">
           </div>
         </div>
       </div>
+    </form>
     </div>
     </div>
   </body>
